@@ -1,0 +1,114 @@
+.cinza7 {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 1044px;
+  height: 347px;
+  z-index: 0;
+}
+.retangulo-marrom-icon8 {
+  position: relative;
+  width: 181px;
+  height: 59px;
+  cursor: pointer;
+  z-index: 0;
+}
+.cabealho8,
+.enviar1 {
+  cursor: pointer;
+  width: 181px;
+  height: 59px;
+  z-index: 1;
+}
+.enviar1 {
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-xl);
+  font-weight: 900;
+  font-family: var(--font-roboto);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.cabealho8 {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 275px;
+  left: 432px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.cabealho8,
+.cinza6,
+.conte-ao-gabriel1 {
+  position: absolute;
+  margin: 0 !important;
+  display: flex;
+}
+.cinza6 {
+  top: 391px;
+  left: 176px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  z-index: 0;
+}
+.conte-ao-gabriel1 {
+  top: 441px;
+  left: 543px;
+  font-weight: 900;
+  align-items: center;
+  justify-content: center;
+  width: 311px;
+  height: 45px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.obsopcionais-inner {
+  border: 0;
+  background-color: var(--color-gainsboro);
+  position: relative;
+  border-radius: var(--br-lg);
+  width: 426px;
+  height: 128px;
+}
+.ajuda-sem-login,
+.obsopcionais2 {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: flex-start;
+}
+.obsopcionais2 {
+  margin: 0 !important;
+  position: absolute;
+  top: 507px;
+  left: 486px;
+  width: 426px;
+  height: 128px;
+  padding: var(--padding-7xs) 0;
+  justify-content: center;
+  z-index: 2;
+}
+.ajuda-sem-login {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1129px;
+  overflow: hidden;
+  padding: var(--padding-41xl) 0 var(--padding-41xl) var(--padding-43xl);
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}

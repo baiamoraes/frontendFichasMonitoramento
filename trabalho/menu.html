@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./menu.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="menu">
+      <div class="cinza"></div>
+      <div class="boto-6" id="boto6Container">
+        <div class="segundo"></div>
+        <div class="criar-nova-ficha">Criar Nova Ficha</div>
+        <img
+          class="kisspng-computer-icons-documen"
+          alt=""
+          src="./public/kisspngcomputericonsdocumentfileformaticondesigngoogleplus5ad5be2d0492e2-2@2x.png"
+        />
+      </div>
+      <div class="boto-2" id="boto2Container">
+        <div class="segundo"></div>
+        <div class="procurar-fichas">Procurar Fichas</div>
+        <img
+          class="kisspng-computer-icons-documen1"
+          alt=""
+          src="./public/kisspngcomputericonsdocumentfileformaticondesigngoogleplus5ad5be2d0492e2-1@2x.png"
+        />
+      </div>
+      <div class="boto-3" id="boto3Container">
+        <div class="segundo"></div>
+        <div class="log-out">Chamar o Gabriel</div>
+        <img
+          class="kisspng-computer-icons-documen2"
+          alt=""
+          src="./public/kisspngcomputericonsdocumentfileformaticondesigngoogleplus5ad5be2d0492e2-11@2x.png"
+        />
+      </div>
+      <div class="boto-4" id="boto4Container">
+        <div class="segundo"></div>
+        <div class="log-out">Log Out</div>
+        <img
+          class="kisspng-computer-icons-documen3"
+          alt=""
+          src="./public/kisspngcomputericonsdocumentfileformaticondesigngoogleplus5ad5be2d0492e2-12@2x.png"
+        />
+      </div>
+    </div>
+
+    <script>
+      var boto6Container = document.getElementById("boto6Container");
+      if (boto6Container) {
+        boto6Container.addEventListener("click", function (e) {
+          window.location.href = "./criar-ficha.html";
+        });
+      }
+      
+      var boto2Container = document.getElementById("boto2Container");
+      if (boto2Container) {
+        boto2Container.addEventListener("click", function (e) {
+          window.location.href = "./procurar-fichas.html";
+        });
+      }
+      
+      var boto3Container = document.getElementById("boto3Container");
+      if (boto3Container) {
+        boto3Container.addEventListener("click", function (e) {
+          window.location.href = "./ajuda-com-login.html";
+        });
+      }
+      
+      var boto4Container = document.getElementById("boto4Container");
+      if (boto4Container) {
+        boto4Container.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      </script>
+  </body>
+</html>

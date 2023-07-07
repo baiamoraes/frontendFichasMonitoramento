@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./criar-ficha.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="criar-ficha">
+      <div class="cinza1"></div>
+      <div class="branco"></div>
+      <button class="cabealho">
+        <img
+          class="retangulo-marrom-icon"
+          alt=""
+          src="./public/retangulo-marrom1.svg"
+        />
+
+        <div class="finalizar-edio">Criar Nova Ficha</div>
+        <img
+          class="icone-criar-ficha"
+          alt=""
+          src="./public/kisspngcomputericonsdocumentfileformaticondesigngoogleplus5ad5be2d0492e2-2@2x.png"
+        />
+      </button>
+      <button class="cabealho1" id="cabealho1">
+        <img
+          class="retangulo-marrom-icon1"
+          alt=""
+          src="./public/retangulo-marrom.svg"
+        />
+
+        <div class="finalizar-edio">Finalizar Edição</div>
+      </button>
+      <div class="boto-1" id="boto1Container">
+        <div class="primeiro"></div>
+        <div class="procurar-fichas1">Procurar Fichas</div>
+        <img
+          class="icone-procurar"
+          alt=""
+          src="./public/kisspngcomputericonsdocumentfileformaticondesigngoogleplus5ad5be2d0492e2-1@2x.png"
+        />
+      </div>
+      <div class="boto-21" id="boto2Container">
+        <div class="primeiro"></div>
+        <img class="icone-menu" alt="" src="./public/icone-menu@2x.png" />
+
+        <div class="menu-principal">Menu Principal</div>
+      </div>
+      <div class="boto-31" id="boto3Container">
+        <div class="primeiro"></div>
+        <div class="chamar-o-gabriel2">Chamar o Gabriel</div>
+        <img
+          class="icone-help"
+          alt=""
+          src="./public/kisspngcomputericonsdocumentfileformaticondesigngoogleplus5ad5be2d0492e2-11@2x.png"
+        />
+      </div>
+      <div class="boto-41" id="boto4Container">
+        <div class="primeiro"></div>
+        <div class="chamar-o-gabriel2">Log Out</div>
+        <img
+          class="icone-logout"
+          alt=""
+          src="./public/kisspngcomputericonsdocumentfileformaticondesigngoogleplus5ad5be2d0492e2-12@2x.png"
+        />
+      </div>
+      <div class="ordem-data-e-hora">
+        <div class="n-de-ordem">Nº de Ordem:</div>
+        <div class="data-e-hora">Data e Hora da Ocorrência:</div>
+        <div class="ordem">
+          <input class="ordem1" type="number" min="1" max="100" value="200" pattern="\d{1,3}" readonly />
+        </div>        
+      </div>
+      <div class="data-e-hora1">
+        <input
+          class="data"
+          type="datetime-local"
+          maxlength
+          minlength
+          required
+          id="199"
+        />
+      </div>
+      <div class="turno-select">
+        <select class="turno" required>
+          <option value="1">Turno 1: 07:00 - 13:00</option>
+          <option value="2">Turno 2: 13:00 - 19:00</option>
+          <option value="3">Turno 3: 19:00 - 07:00</option>
+        </select>
+        <div class="turno1">Turno:</div>
+      </div>
+      <div class="nome-agente-imput-text">
+        <input
+          class="nome-agente-imput-text-child"
+          type="text"
+          placeholder="Digite seu nome sem abreviações"
+          maxlength
+          minlength
+          required
+          id="100"
+        />
+
+        <div class="nome-do-agente">Nome do Agente:</div>
+        <input
+          class="nome-agente-imput-text-item"
+          type="number"
+          maxlength
+          minlength
+          required
+        />
+
+        <div class="n-de-protocolo">Nº de Protocolo:</div>
+      </div>
+      <div class="camera-select">
+        <div class="cmera">Câmera:</div>
+        <select class="camera" required>
+          <option value="1">Câmera 001 - Shoping</option>
+          <option value="2">Câmera 002 - Cinema</option>
+          <option value="3">Câmera 003 - Parque</option>
+          <option value="4">Câmera 004 - Aeroporto</option>
+        </select>
+        <select class="natureza" required>
+          <option value="1">Veículo Furtado</option>
+          <option value="2">Veíiculo Roubado</option>
+          <option value="3">Pessoa com Mandado de Prisão</option>
+          <option value="4">Pessoa com Mandado de Internação</option>
+        </select>
+        <div class="natureza1">Natureza:</div>
+      </div>
+      <div class="dados-do-procurado">
+        <div class="dados-do-procurado-container">
+          <span class="dados-do-procurado-container1">
+            <span>Dados do</span>
+            <span class="span"> </span>
+            <span>Procurado</span>
+          </span>
+        </div>
+      </div>
+      <div class="nome-e-placa">
+        <div class="nome-da-pessoa">Nome da Pessoa Procurada:</div>
+        <div class="nomeprocurado">
+          <input
+            class="nomeprocurado-child"
+            type="text"
+            placeholder="Sem Abreviações"
+            maxlength
+            minlength
+            required
+            id="205"
+          />
+        </div>
+        <div class="placa-do-veculo">Placa do Veículo:</div>
+        <div class="placaprocurado">
+          <input
+            class="nomeprocurado-child"
+            type="text"
+            placeholder="Ex: ABC1234 ou ABC1E34"
+            maxlength="{7}"
+            minlength="{7}"
+            required
+            autofocus
+            id="155"
+          />
+        </div>
+      </div>
+      <div class="cpf-e-modelo">
+        <div class="nome-da-pessoa">CPF da Pessoa Procurada:</div>
+        <div class="nomeprocurado">
+          <input
+            class="nomeprocurado-child"
+            type="text"
+            placeholder="Ex: 12345678900"
+            maxlength="{11}"
+            minlength="{11}"
+            required
+          />
+        </div>
+        <div class="modelo-do-veculo">Modelo do Veículo:</div>
+        <div class="placaprocurado">
+          <input
+            class="nomeprocurado-child"
+            type="text"
+            placeholder="Ex: VW/GOL 1.6 2005"
+            maxlength
+            minlength
+            required
+            id="225"
+          />
+        </div>
+      </div>
+      <div class="data-e-cor">
+        <div class="nome-da-pessoa">Data do Mandado:</div>
+        <div class="nomeprocurado">
+          <input
+            class="nomeprocurado-child"
+            type="date"
+            maxlength
+            minlength
+            required
+            id="235"
+          />
+        </div>
+        <div class="modelo-do-veculo">Cor do Veículo:</div>
+        <div class="placaprocurado">
+          <input
+            class="nomeprocurado-child"
+            type="text"
+            placeholder="Ex: Verde; Vermelho; Branco..."
+            maxlength
+            minlength
+            required
+            id="245"
+          />
+        </div>
+      </div>
+      <div class="obersvaes-imput-text">
+        <div class="observaes-opcionais">Observações Opcionais:</div>
+        <div class="obsopcionais">
+          <textarea class="obsopcionais-child"> </textarea>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var cabealho1 = document.getElementById("cabealho1");
+      if (cabealho1) {
+        cabealho1.addEventListener("click", function (e) {
+          window.location.href = "./menu.html";
+        });
+      }
+      
+      var boto1Container = document.getElementById("boto1Container");
+      if (boto1Container) {
+        boto1Container.addEventListener("click", function (e) {
+          window.location.href = "./procurar-fichas.html";
+        });
+      }
+      
+      var boto2Container = document.getElementById("boto2Container");
+      if (boto2Container) {
+        boto2Container.addEventListener("click", function (e) {
+          window.location.href = "./menu.html";
+        });
+      }
+      
+      var boto3Container = document.getElementById("boto3Container");
+      if (boto3Container) {
+        boto3Container.addEventListener("click", function (e) {
+          window.location.href = "./ajuda-com-login.html";
+        });
+      }
+      
+      var boto4Container = document.getElementById("boto4Container");
+      if (boto4Container) {
+        boto4Container.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      </script>
+  </body>
+</html>

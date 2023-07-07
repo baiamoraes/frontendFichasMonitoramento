@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="login">
+      <div class="frame-parent">
+        <div class="rectangle-parent">
+          <div class="frame-child"></div>
+          <div class="group-wrapper">
+            <div class="sualogo-parent">
+              <div class="sualogo">Login</div>
+              <img class="icon" alt="" src="./public/1.svg" />
+            </div>
+          </div>
+          <div class="entrar-parent">
+            <div class="entrar" id="entrarContainer">
+              <div class="entrar-child"></div>
+              <div class="entrar1">entrar</div>
+            </div>
+            <img class="group-child" alt="" src="./public/group-218.svg" />
+
+            <input
+              class="usurio"
+              type="email"
+              placeholder="Usuário"
+              maxlength
+              minlength
+              required
+              id="1"
+            />
+
+            <input
+              class="senha"
+              type="password"
+              placeholder="Senha"
+              maxlength
+              minlength
+              required
+              id="2"
+            />
+
+            <div class="group-item"></div>
+            <div class="group-inner"></div>
+            <img
+              class="person-24px-icon"
+              alt=""
+              src="./public/person-24px.svg"
+            />
+          </div>
+        </div>
+        <button class="chamar-o-gabriel" id="chamarOGabriel">
+          Chamar o Gabriel
+        </button>
+      </div>
+      <img
+        class="logo-unifesspa-icon"
+        alt=""
+        src="./public/logo-unifesspa@2x.png"
+      />
+
+      <img class="logo-ciop-icon" alt="" src="./public/logo-ciop@2x.png" />
+    </div>
+
+    <script>
+      var entrarContainer = document.getElementById("entrarContainer");
+      if (entrarContainer) {
+        entrarContainer.addEventListener("click", function (e) {
+          window.location.href = "./menu.html";
+        });
+      }
+      
+      var chamarOGabriel = document.getElementById("chamarOGabriel");
+      if (chamarOGabriel) {
+        chamarOGabriel.addEventListener("click", function (e) {
+          window.location.href = "./ajuda-sem-login.html";
+        });
+      }
+      </script>
+  </body>
+</html>

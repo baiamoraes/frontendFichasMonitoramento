@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./resultados-busca.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="resultados-busca">
+      <div class="cinza3"></div>
+      <div class="branco2"></div>
+      <button class="cabealho4">
+        <img
+          class="retangulo-marrom-icon4"
+          alt=""
+          src="./public/retangulo-marrom1.svg"
+        />
+
+        <div class="resultados">Procurar Fichas</div>
+        <img
+          class="icone-procurar2"
+          alt=""
+          src="./public/kisspngcomputericonsdocumentfileformaticondesigngoogleplus5ad5be2d0492e2-1@2x.png"
+        />
+      </button>
+      <button class="cabealho5">
+        <img
+          class="retangulo-marrom-icon4"
+          alt=""
+          src="./public/retangulo-marrom2.svg"
+        />
+
+        <div class="resultados">Resultados</div>
+        <img
+          class="icone-procurar2"
+          alt=""
+          src="./public/kisspngcomputericonsdocumentfileformaticondesigngoogleplus5ad5be2d0492e2-1@2x.png"
+        />
+      </button>
+      <div class="cabealho6">
+        <img
+          class="retangulo-marrom-icon6"
+          alt=""
+          src="./public/retangulo-marrom.svg"
+        />
+
+        <div class="buscar1">Buscar</div>
+      </div>
+      <button class="boto-51" id="boto5">
+        <img class="primeiro-icon1" alt="" src="./public/primeiro.svg" />
+
+        <div class="criar-nova-ficha3">Criar Nova Ficha</div>
+        <img
+          class="kisspng-computer-icons-documen5"
+          alt=""
+          src="./public/kisspngcomputericonsdocumentfileformaticondesigngoogleplus5ad5be2d0492e2-2@2x.png"
+        />
+      </button>
+      <div class="boto-23" id="boto2Container">
+        <div class="segundo4"></div>
+        <img class="icone-menu2" alt="" src="./public/icone-menu@2x.png" />
+
+        <div class="menu-principal2">Menu Principal</div>
+      </div>
+      <div class="boto-33" id="boto3Container">
+        <div class="segundo4"></div>
+        <div class="chamar-o-gabriel4">Chamar o Gabriel</div>
+        <img
+          class="icone-help2"
+          alt=""
+          src="./public/kisspngcomputericonsdocumentfileformaticondesigngoogleplus5ad5be2d0492e2-11@2x.png"
+        />
+      </div>
+      <div class="boto-43" id="boto4Container">
+        <div class="segundo4"></div>
+        <div class="chamar-o-gabriel4">Log Out</div>
+        <img
+          class="icone-logout2"
+          alt=""
+          src="./public/kisspngcomputericonsdocumentfileformaticondesigngoogleplus5ad5be2d0492e2-12@2x.png"
+        />
+      </div>
+      <div class="ordem-data-e-hora2">
+        <div class="n-de-ordem2">Nº de Ordem:</div>
+        <div class="data-e-hora4">Data e Hora da Ocorrência:</div>
+        <div class="ordem4">
+          <input class="ordem5" type="number" maxlength minlength />
+
+          <div class="div">200/2023</div>
+        </div>
+      </div>
+      <div class="data-e-hora5">
+        <input
+          class="data2"
+          type="datetime-local"
+          maxlength
+          minlength
+          required
+          id="199"
+        />
+      </div>
+      <div class="nome-agente-imput-text2">
+        <input
+          class="nome-agente-imput-text-child1"
+          type="text"
+          placeholder="Digite seu nome sem abreviações"
+          maxlength
+          minlength
+          required
+          id="100"
+        />
+
+        <div class="nome-do-agente2">Nome do Agente:</div>
+        <input
+          class="nome-agente-imput-text-child2"
+          type="number"
+          maxlength
+          minlength
+          required
+          id="101"
+        />
+
+        <div class="div1">2023070112304510190</div>
+        <div class="n-de-protocolo2">Nº de Protocolo:</div>
+      </div>
+      <div class="nome-agente-imput-text3">
+        <img class="rectangle-icon" alt="" src="./public/rectangle-7.svg" />
+
+        <div class="div2">200/2023</div>
+        <div class="n-de-ordem3">Nº de Ordem:</div>
+        <img
+          class="nome-agente-imput-text-child3"
+          alt=""
+          src="./public/rectangle-7.svg"
+        />
+
+        <div class="james-bond">James Bond</div>
+        <div class="agente">Agente:</div>
+        <input
+          class="nome-agente-imput-text-child4"
+          type="number"
+          maxlength
+          minlength
+          required
+          id="101"
+        />
+
+        <div class="div3">2023070112304510190</div>
+        <div class="n-de-protocolo3">Nº de Protocolo:</div>
+      </div>
+    </div>
+
+    <script>
+      var boto5 = document.getElementById("boto5");
+      if (boto5) {
+        boto5.addEventListener("click", function (e) {
+          window.location.href = "./criar-ficha.html";
+        });
+      }
+      
+      var boto2Container = document.getElementById("boto2Container");
+      if (boto2Container) {
+        boto2Container.addEventListener("click", function (e) {
+          window.location.href = "./menu.html";
+        });
+      }
+      
+      var boto3Container = document.getElementById("boto3Container");
+      if (boto3Container) {
+        boto3Container.addEventListener("click", function (e) {
+          window.location.href = "./ajuda-com-login.html";
+        });
+      }
+      
+      var boto4Container = document.getElementById("boto4Container");
+      if (boto4Container) {
+        boto4Container.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      </script>
+  </body>
+</html>

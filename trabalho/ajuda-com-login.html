@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./ajuda-com-login.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="ajuda-com-login">
+      <div class="cinza4">
+        <div class="cinza5"></div>
+        <button class="cabealho7">
+          <img
+            class="retangulo-marrom-icon7"
+            alt=""
+            src="./public/retangulo-marrom.svg"
+            id="retanguloMarrom"
+          />
+
+          <div class="enviar" id="enviarText">Enviar</div>
+        </button>
+      </div>
+      <div class="conte-ao-gabriel">
+        Conte ao Gabriel o que está acontecendo
+      </div>
+      <div class="obsopcionais1">
+        <textarea
+          class="obsopcionais-item"
+          placeholder="Insira sua mensagem aqui..."
+          required
+        >
+        </textarea>
+      </div>
+    </div>
+
+    <script>
+      var retanguloMarrom = document.getElementById("retanguloMarrom");
+      if (retanguloMarrom) {
+        retanguloMarrom.addEventListener("click", function (e) {
+          window.location.href = "./menu.html";
+        });
+      }
+      
+      var enviarText = document.getElementById("enviarText");
+      if (enviarText) {
+        enviarText.addEventListener("click", function (e) {
+          window.location.href = "./menu.html";
+        });
+      }
+      </script>
+  </body>
+</html>

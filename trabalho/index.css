@@ -1,0 +1,208 @@
+.frame-child {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 525px;
+  height: 1129px;
+  z-index: 0;
+}
+.icon,
+.sualogo {
+  position: absolute;
+}
+.sualogo {
+  top: 0;
+  left: 0;
+  letter-spacing: 4.03px;
+  font-weight: 900;
+  display: inline-block;
+  width: 217.67px;
+  height: 56.43px;
+}
+.icon {
+  top: 43.85px;
+  left: 225.61px;
+  width: 59.4px;
+  height: 71.28px;
+  display: none;
+}
+.group-wrapper,
+.sualogo-parent {
+  position: absolute;
+  top: 49.33px;
+  left: 3.99px;
+  width: 217.67px;
+  height: 56.43px;
+}
+.group-wrapper {
+  margin: 0 !important;
+  top: 286px;
+  left: 199px;
+  width: 147px;
+  height: 159px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.entrar-child {
+  position: absolute;
+  top: calc(50% - 25.61px);
+  left: calc(50% - 144.04px);
+  border-radius: 166px;
+  background-color: var(--color-gray-200);
+  width: 288.09px;
+  height: 51.22px;
+}
+.entrar1 {
+  position: absolute;
+  top: calc(50% - 9.96px);
+  left: calc(50% - 84.64px);
+  text-transform: uppercase;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 169.27px;
+  height: 19.21px;
+}
+.entrar {
+  position: absolute;
+  top: calc(50% + 71.21px);
+  left: calc(50% - 143.54px);
+  width: 288.09px;
+  height: 51.22px;
+  cursor: pointer;
+}
+.group-child,
+.senha,
+.usurio {
+  position: absolute;
+  top: calc(50% - 14.42px);
+  left: calc(50% + 122.46px);
+  width: 20px;
+  height: 17.68px;
+}
+.senha,
+.usurio {
+  border: 0;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 27.93px;
+  background-color: rgba(0, 0, 0, 0);
+  top: calc(50% - 122.42px);
+  left: calc(50% - 144.54px);
+  color: rgb(148, 219, 15);
+  text-align: left;
+  display: flex;
+  align-items: flex-end;
+  width: 257px;
+  height: 26px;
+}
+.senha {
+  top: calc(50% - 25.42px);
+}
+.group-inner,
+.group-item {
+  position: absolute;
+  top: calc(50% - 81.92px);
+  left: calc(50% - 145.04px);
+  border-top: 1px solid var(--color-gray-300);
+  box-sizing: border-box;
+  width: 290px;
+  height: 1px;
+}
+.group-inner {
+  top: calc(50% + 17.71px);
+}
+.entrar-parent,
+.person-24px-icon {
+  position: absolute;
+  top: calc(50% - 121.42px);
+  left: calc(50% + 120.46px);
+  width: 24px;
+  height: 24.83px;
+}
+.entrar-parent {
+  margin: 0 !important;
+  top: calc(50% - 101.5px);
+  left: calc(50% - 144.5px);
+  width: 289.09px;
+  height: 244.85px;
+  z-index: 2;
+  text-align: center;
+  font-size: 15.36px;
+  color: var(--color-white);
+}
+.rectangle-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.chamar-o-gabriel {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: calc(50% + 181.5px);
+  left: calc(50% - 73.5px);
+  font-size: 17.93px;
+  text-decoration: underline;
+  font-family: var(--font-raleway);
+  color: var(--color-gray-200);
+  text-align: left;
+  display: flex;
+  align-items: flex-end;
+  width: 149px;
+  height: 26px;
+}
+.frame-parent {
+  position: absolute;
+  margin: 0 !important;
+  top: -10px;
+  left: 862px;
+  width: 545px;
+  height: 1149px;
+  z-index: 0;
+}
+.logo-ciop-icon,
+.logo-unifesspa-icon {
+  position: absolute;
+  margin: 0 !important;
+  top: 911px;
+  left: 202px;
+  width: 469px;
+  height: 264px;
+  object-fit: cover;
+  z-index: 1;
+}
+.logo-ciop-icon {
+  top: 229px;
+  left: 166px;
+  width: 541px;
+  height: 530px;
+  z-index: 2;
+}
+.login {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1129px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-41xl) 0 var(--padding-41xl) var(--padding-43xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: 48.37px;
+  color: var(--color-gray-200);
+  font-family: var(--font-roboto);
+}
